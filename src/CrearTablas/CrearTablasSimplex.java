@@ -1,18 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 package CrearTablas;
 
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
-
-/**
- *
- * @author Mipc
- */ 
+ 
 public class CrearTablasSimplex {    
     public static void TablaSolucion(int Xn,int Nrestricciones,DefaultTableModel modeloRestricciones, JTable Tablon){          
 //        info.setText(" Procesando… Espere un momento");  

@@ -15,12 +15,14 @@ import javax.swing.table.DefaultTableModel;
 /** 
  *
  * @author
+ * 
+ * To carry out the project we use the following link: https://www.youtube.com/watch?v=VwljsyAeeIA
  */
 public class Simplex {
     
     public static int columnaMayor,filalaMenor,ntablones=1;
     public static  double pivote;
-    private static int posicioSubstringAnteM;// Dice  la posición desde donde se va obtener el número (Substring) que está delante la M e
+    private static int posicioSubstringAnteM;// It says the position from where the number (Substring) that is in front of the M will be obtained
     public static  boolean todosMenor=false; 
     public static void calcularZj(DefaultTableModel modeloSolucion){
       int fila = modeloSolucion.getRowCount();
@@ -119,7 +121,7 @@ public class Simplex {
                    mayor = y;
                    columnaMayor = f;
                }
-        if(y>0) todosMenor = false;// se comprueba si todos los numeros no son menores que cero
+        if(y>0) todosMenor = false;// checks if all numbers are not less than zero checks if all numbers are not less than zero
         }
     }
     public static void menorFilaCj_Zj(DefaultTableModel modeloSolucion){
